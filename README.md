@@ -21,21 +21,27 @@ Step 1: Create a new repository
 bash
 git init calculator
 cd calculator
+
 Step 2: Create a new file for the calculator program
 bash
 touch calculator.c
+
 Step 3: Add the calculator program code to the file
 bash
 nano calculator.c
 Paste the code into the file and save.
+
 Step 4: Add the file to the Git repository
 bash
 git add calculator.c
+
 Step 5: Commit the changes
 bash
 git commit -m "Initial commit of calculator program"
+
 Step 6: Create a new repository on GitHub
 Create a new repository on GitHub and link it to your local repository.
+
 Step 7: Push the changes to GitHub
 bash
 git remote add origin (link unavailable)
